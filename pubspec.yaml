@@ -1,0 +1,30 @@
+name: notes_app_getx
+description: A notes app built with Flutter, GetX, and SQLite
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.7.2
+  intl: ^0.18.0
+  sqflite: ^2.2.8+4
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "/Users/arnavsingh/Documents/getx/assets/icon/app-icon.png"
+
+
+flutter:
+  uses-material-design: true
