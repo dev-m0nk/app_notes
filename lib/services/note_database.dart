@@ -39,7 +39,6 @@ class NoteDatabase {
         category TEXT,
         createdAt TEXT NOT NULL,
         updatedAt TEXT NOT NULL,
-        isPinned INTEGER NOT NULL DEFAULT 0
       )
     ''');
   }

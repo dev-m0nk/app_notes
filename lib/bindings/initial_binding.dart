@@ -13,7 +13,6 @@ class InitialBinding extends Bindings {
     Get.put<NoteService>(noteService);
     Get.put<NoteController>(NoteController(noteService));
 
-    // ✅ Register ThemeService once globally
     Get.put<ThemeService>(ThemeService());
   }
 }
